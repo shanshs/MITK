@@ -215,7 +215,7 @@ mark_as_advanced(
 env_option(MITK_USE_Qt5 "Use Qt 5 library" ON)
 
 if(MITK_USE_Qt5)
-  set(MITK_QT5_MINIMUM_VERSION 5.11.1)
+  set(MITK_QT5_MINIMUM_VERSION 5.9.7)
   set(MITK_QT5_COMPONENTS Concurrent OpenGL PrintSupport Script Sql Svg Widgets Xml XmlPatterns WebEngineWidgets UiTools Help LinguistTools)
   if(APPLE)
     list(APPEND MITK_QT5_COMPONENTS DBus)
